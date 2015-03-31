@@ -55,7 +55,7 @@ $(function(){
    * http://stackoverflow.com/a/3177838/477958
   **/
   function timeSince(date) {
-    var seconds = Math.floor(((new Date().getTime()/1000) - date))
+    var seconds = Math.floor(((new Date().getTime()/1000) - date));
 
     var interval = Math.floor(seconds / 31536000);
 
