@@ -7,12 +7,35 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <form action="">
-  	<label>Search:</label><input type="text" name="Search" value="Search Domain">
-    <input type="submit" value="Submit">
-  </form>
+  <div id="w">
+    <div id="logo">
+      <h1>Reddit API Domain Search</h1>
+    </div>
+    
+    <p>Enter a domain without <code>http://www.</code> to browse recent submissions in Reddit.</p>
+    
+    <div id="searchfield">
+      <form id="domainform" name="domainform">
+        <input type="text" class="search" id="s" name="s" placeholder="ex: youtube.com">
+      </form>
+    </div>
+    
+    <div id="content"></div>
 
-<!--load external javascript-->	
+
+
+
+
+
+
+
+<!--load external javascript scripts-->
+<!--jquery cdn-->	
+<!--<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<!--jquery local-->
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<!--custom scripts-->
 <script type="text/javascript" src="js/main.js"></script>
 
 
